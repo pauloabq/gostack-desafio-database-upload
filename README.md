@@ -186,7 +186,20 @@ ou
 ```bash
 $ npm install
 ```
-#### 3. Iniciar servidor back-end NodeJS
+
+#### 3. Iniciar um container Docker com banco Postgres
+```
+$ docker run --name gostack_postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
+
+#### 4. Rodar as migrations
+
+```
+$ yarn typeorm migration:run
+```
+
+
+#### 5. Iniciar servidor back-end NodeJS
 
 ```
 $ yarn dev:server
@@ -195,8 +208,6 @@ ou
 ```
 $ npm run dev:server
 ```
-
-
 
 ### Testar
 
