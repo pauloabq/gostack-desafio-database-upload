@@ -244,3 +244,5 @@ Criado por <strong>Paulo Albuquerque</strong>
 
 [github-lang-shield]: https://img.shields.io/github/languages/count/pauloabq/gostack-desafio-database-upload
 [github-lang-url]: http://github.com/pauloabq
+
+
