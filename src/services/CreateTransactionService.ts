@@ -52,7 +52,6 @@ class CreateTransactionService {
       await transactionRepository.save(transaction);
 
       const data = { ...transaction };
-      data.category = categoryTransaction;
       return data;
     } catch (err) {
       throw new AppError(err.message);
